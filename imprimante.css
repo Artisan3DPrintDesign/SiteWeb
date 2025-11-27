@@ -15,8 +15,8 @@
   --card-soft: #151724;
   --text: #e3e6ee;
   --text-dim: #a9adc2;
-  --accent: #00b7ff;
-  --accent-glow: 0 0 20px #00b7ff;
+  --accent: #85fbff;
+  --accent-glow: 0 0 6px #00f7ff6b;
 }
 
 html, body {
@@ -216,3 +216,4 @@ body {
     padding-inline: 18px;
   }
 }
+
