@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Titouan Franchet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Image/logo.png">
+    <link rel="stylesheet" href="stylee.css">
+  <title>Artisan3DPrint Design - Galerie</title>
+</head>
+
+<body>
+  <header>
+    <h1>Artisan3DPrint Design</h1>
+    <p>Bienvenue dans ma Galerie 🌟</p>
+  </header>
+
+  <nav>
+    <a href="index.html" onclick="showSection('accueil')">Accueil</a>
+    <a href="galerie.html" onclick="showSection('galerie')">Projets</a>
+    <a href="contact.html" onclick="showSection('contact')">Contact</a>
+  </nav>
+
+
+
+
+<body1>
+ <main>
+    <!-- GALERIE -->
+    <section id="galerie" class="active">
+      <h2>Mes créations</h2>
+      <p>Voici quelques exemples de mes réalisations récentes :</p>
+      <div class="gallery">
+        <a href="projet1.html" class="bouton-image">
+          <img src="Image/symboleS.jpg" alt="PorteClé" class="logo">
+        </a>   
+
+        <a href="projet2.html" class="bouton-image">
+          <img src="Image/projetplaque.jpg" alt="Création 2">
+        </a> 
+        
+        <a href="projet3.html" class="bouton-image">
+          <img src="Image/photo3.png" alt="Création 3">
+        </a> 
+        
+        <a href="projet4.html" class="bouton-image">
+          <img src="Image/photo4.png" alt="Création 4">
+        </a> 
+      
+    </div>
+    </section>
+ </main>
+</body1>
+
+
+
+
+
+
+
+
+  <footer>
+    © 2025 Artisan3DPrint Design — Tous droits réservés
+  </footer>
+
+  <script>
+    // Script pour afficher les sections selon l’onglet cliqué
+    function showSection(id) {
+      document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+</body>
+</html>

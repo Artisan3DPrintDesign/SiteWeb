@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Titouan Franchet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Image/logo.png">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Artisan3DPrint Design - Mon imprimante 3D</title>
+</head>
+
+<body>
+  <header>
+    <h1>Artisan3DPrint Design</h1>
+    <p>Bienvenue sur la présentation de mon imprimante 🌟</p>
+  </header>
+
+  <nav>
+    <a href="index.html" onclick="showSection('accueil')">Accueil</a>
+    <a href="galerie.html" onclick="showSection('galerie')">Projets</a>
+    <a href="contact.html" onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <main>
+  <section class="page-imprimante active">
+    <h2>Mon imprimante 3D</h2>
+
+    <div class="imprimante-wrapper">
+
+      <!-- COLONNE GAUCHE : PHOTO + VIDÉO -->
+      <div class="imprimante-media">
+
+        <!-- Carte photo -->
+        <figure class="imprimante-card imprimante-card-photo">
+          <img src="Image/imprimante.png"
+               alt="Imprimante 3D Creality Ender 3 S1 Pro"
+               class="imprimante-photo">
+          <figcaption>Imprimante 3D Creality Ender 3 S1 Pro</figcaption>
+        </figure>
+
+        <!-- Carte vidéo -->
+        <div class="imprimante-card imprimante-video-card">
+          <h3>Impression en action</h3>
+          <video controls loop autoplay muted class="imprimante-video">
+            <source src="Image/impressionvideo.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo HTML5.
+          </video>
+        </div>
+
+      </div>
+
+      <!-- COLONNE DROITE : DESCRIPTION STRUCTURÉE -->
+      <article class="imprimante-card imprimante-description">
+        <h3>Caractéristiques techniques</h3>
+        <ul>
+          <li>Modèle : <strong>Creality Ender 3 S1 Pro</strong></li>
+          <li>Volume d’impression : <strong>220 × 220 × 270 mm</strong> max</li>
+          <li>Architecture : <strong>3 axes</strong>
+            (plateau sur l’axe Y, buse en mouvement sur les axes X et Z)</li>
+          <li>Température maximale de la buse : <strong>300&nbsp;°C</strong></li>
+          <li>Température maximale du plateau : <strong>110&nbsp;°C</strong></li>
+          <li>Filament utilisé : <strong>PLA 100&nbsp;%</strong></li>
+          <li>Réglages typiques PLA : <strong>220&nbsp;°C</strong> pour la buse,
+              <strong>60&nbsp;°C</strong> pour le plateau</li>
+        </ul>
+
+        <h3>Utilisation et entretien</h3>
+        <p>
+          Cette imprimante 3D me permet de réaliser des projets précis et modernes
+          tout en restant fiable au quotidien.
+        </p>
+        <p>
+          Je réalise régulièrement la <strong>calibration du plateau</strong> ainsi que
+          le <strong>nettoyage de la buse</strong> afin de garantir une excellente
+          qualité d’impression et éviter les bouchages.
+        </p>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+
+  <footer>
+    © 2025 Artisan3DPrint Design — Tous droits réservés
+  </footer>
+
+</body>
+</html>
