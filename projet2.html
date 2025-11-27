@@ -2,131 +2,111 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Titouan Franchet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/logo.png">
-    <link rel="stylesheet" href="stylee.css">
-    <title>Artisan3DPrint Design - Projet 2 : Plaque moto personnalisée</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Titouan Franchet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/logo.png">
+  <link rel="stylesheet" href="projets.css">
+  <title>Artisan3DPrint Design - Projet 2 : Plaque moto personnalisée</title>
 </head>
 
 <body>
 
-    <!-- En-tête -->
-    <header>
-        <h1>Artisan3DPrint Design</h1>
-        <p>Bienvenue dans mon Projet Numéro 2 🌟</p>
-    </header>
+  <!-- HEADER -->
+  <header class="site-header">
+    <h1>Artisan3DPrint Design</h1>
+    <p>Bienvenue dans mon Projet Numéro 2 🌟</p>
+  </header>
 
-    <!-- Menu -->
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="galerie.html">Projets</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="galerie.html">Projets</a>
+    <a href="imprimante.html">Imprimante</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <!-- Contenu principal -->
-    <main>
-        <section class="page-projet active" id="projet2">
+  <main class="page">
 
-            <h2>Plaque moto personnalisée imprimée en 3D</h2>
+    <!-- SECTION PROJET -->
+    <section class="card project-section">
 
-<!-- Bloc principal : texte + colonne de droite (résultat + vidéo) -->
-<div class="projet-wrapper">
+      <h2>Plaque moto personnalisée imprimée en 3D</h2>
 
-  <!-- Colonne gauche : description -->
-  <article class="projet-card projet-description">
-    <h3>Présentation du projet</h3>
-    <p>
-      Ce projet est une <strong>plaque personnalisée pour moto</strong>, conçue pour un client qui souhaitait
-      réaliser des photos de sa moto sans afficher sa véritable plaque d’immatriculation.
-    </p>
-    <p>
-      À partir de son idée et des <strong>dimensions exactes d’une plaque moto</strong>, j’ai modélisé une pièce
-      qui vient se fixer directement sur la plaque originale. Sur la partie visible, j’ai intégré un texte
-      personnalisé avec son nom (que j’ai volontairement masqué sur les visuels pour respecter sa confidentialité).
-    </p>
+      <div class="project-wrapper">
 
-    <h3>Processus de création</h3>
-    <ul>
-      <li>💡 Idée du client : une plaque factice au format moto, avec son nom à la place du numéro.</li>
-      <li>📏 Réception des dimensions souhaitées pour respecter le format de la plaque d’origine.</li>
-      <li>🧩 Conception du modèle dans un <strong>logiciel 3D</strong> à partir de ces mesures.</li>
-      <li>📐 Import du modèle dans un <strong>Slicer</strong> pour générer les instructions pour l’imprimante 3D.</li>
-      <li>⚙ Réglage des paramètres d’impression, puis <strong>lancement de l’impression</strong>.</li>
-      <li>📸 Envoi de plusieurs photos de la pièce terminée au client.</li>
-      <li>🤝 Remise de la plaque en main propre au client.</li>
-    </ul>
-      <div class="contact-projet">
-         <h3>Un projet similaire ? Besoin d’une création sur mesure ?</h3>
-            <p>
-                Si vous souhaitez une plaque personnalisée, un accessoire moto ou toute autre pièce imprimée en 3D,
-                je peux réaliser votre projet sur demande.
-            </p>
+        <!-- Colonne gauche : description -->
+        <article class="project-description">
+          <h3>Présentation du projet</h3>
+          <p>
+            Ce projet est une <strong>plaque personnalisée pour moto</strong>, conçue pour un client qui souhaitait
+            réaliser des photos de sa moto sans afficher sa véritable plaque d’immatriculation.
+          </p>
+          <p>
+            À partir de son idée et des <strong>dimensions exactes d’une plaque moto</strong>, j’ai modélisé une pièce
+            qui vient se fixer directement sur la plaque originale. Sur la partie visible, j’ai intégré un texte
+            personnalisé avec son nom (que j’ai volontairement masqué sur les visuels pour respecter sa confidentialité).
+          </p>
 
-            <p><strong>Pour me contacter, cliquez sur le logo Gmail :</strong></p>
+          <h3>Processus de création</h3>
+          <ul>
+            <li>💡 Idée du client : une plaque factice au format moto, avec son nom à la place du numéro.</li>
+            <li>📏 Réception des dimensions souhaitées pour respecter le format de la plaque d’origine.</li>
+            <li>🧩 Conception du modèle dans un <strong>logiciel 3D</strong> à partir de ces mesures.</li>
+            <li>📐 Import du modèle dans un <strong>Slicer</strong> pour générer les instructions pour l’imprimante 3D.</li>
+            <li>⚙ Réglage des paramètres d’impression, puis <strong>lancement de l’impression</strong>.</li>
+            <li>📸 Envoi de plusieurs photos de la pièce terminée au client.</li>
+            <li>🤝 Remise de la plaque en main propre au client.</li>
+          </ul>
+        </article>
 
-            <a class="contact-mail" href="mailto:artisan3dprintdesign@gmail.com" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg"
-                     alt="Gmail" class="gmail-logo">
-            </a>
-            <p>
-                Ou par l'adresse : artisan3dprintdesign@gmail.com
-            </p>
-    </div>
+        <!-- Colonne droite : résultat + vidéo -->
+        <div class="project-right-col">
 
-  </article>
+          <div class="project-card project-main-image">
+            <h3>Résultat final</h3>
+            <img
+              src="https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/projetplaque.jpg"
+              alt="Plaque moto personnalisée imprimée en 3D">
+          </div>
 
-  <!-- Colonne droite : résultat final + vidéo empilés -->
-  <div class="projet-right-col">
+          <div class="project-card">
+            <h3>Impression en cours</h3>
+            <div class="video-container">
+              <iframe
+                allow="fullscreen;autoplay"
+                allowfullscreen
+                src="https://streamable.com/e/hepf12?autoplay=1&muted=1">
+              </iframe>
+            </div>
+          </div>
 
-    <div class="projet-card projet-visuel-principal">
-      <h3>Résultat final</h3>
-      <img src="https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/projetplaque.jpg"
-           alt="Plaque moto personnalisée imprimée en 3D">
-    </div>
+        </div>
 
-    <div class="projet-card projet-video-card">
-      <h3>Impression en cours</h3>
-      <div style="position:relative; width:100%; height:0px; padding-bottom:178.218%"><iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/hepf12?autoplay=1&muted=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+      </div>
 
-    </div>
+    </section>
 
-  </div>
+    <!-- Bloc de conclusion -->
+    <section class="card project-extra">
+      <p>
+        Ce projet montre comment l’<strong>impression 3D</strong> peut répondre à un besoin très spécifique :
+        ici, une plaque au format réel, mais personnalisée, servant uniquement pour des photos tout en préservant
+        l’<strong>anonymat du propriétaire</strong>.
+      </p>
+      <p>
+        Vous avez une idée similaire (plaque factice, déco de moto, support ou autre pièce sur mesure) ?
+        N’hésitez pas à me contacter via la page <a href="contact.html">Contact</a> pour en discuter.
+      </p>
+    </section>
 
-</div>
+  </main>
 
-<!-- Modèle 3D en dessous, en grand -->
-<!-- <figure class="projet-card modele-projet">
-  <img src="Image/schema3dplaque.png"
-       alt="Modèle 3D de la plaque moto personnalisée">
-  <figcaption>Modèle 3D de la plaque moto personnalisée avant impression.</figcaption>
-</figure> -->
-
-            <!-- Conclusion -->
-            <section class="description-supplementaire">
-                <p>
-                    Ce projet montre comment l’<strong>impression 3D</strong> peut répondre à un besoin très spécifique :
-                    ici, une plaque au format réel, mais personnalisée, servant uniquement pour des photos tout en préservant
-                    l’<strong>anonymat du propriétaire</strong>.
-                </p>
-                <p>
-                    Vous avez une idée similaire (plaque factice, déco de moto, support ou autre pièce sur mesure) ?
-                    N’hésitez pas à me contacter via la page <a href="contact.html">Contact</a> pour en discuter.
-                </p>
-            </section>
-
-        </section>
-    </main>
-
-    <!-- Pied de page -->
-    <footer>
-        © 2025 Artisan3DPrint Design — Tous droits réservés
-    </footer>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    © 2025 Artisan3DPrint Design — Tous droits réservés
+  </footer>
 
 </body>
-
 </html>
-
-
-
