@@ -132,6 +132,22 @@ section.active {
     transition: transform 0.2s ease;
 }
 
+.gmail-logo:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.contact-projet {
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.contact-mail {
+    text-decoration: none;
+}
+
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -517,4 +533,5 @@ footer {
     justify-content: center;
   }
 }
+
 
