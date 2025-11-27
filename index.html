@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Titouan Franchet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Image/logo.png">
+
+    <link rel="stylesheet" href="stylee.css">
+  <title>Artisan3DPrint Design</title>
+</head>
+
+<body>
+  <header>
+    <h1>Artisan3DPrint Design</h1>
+    <p>Bienvenue dans mon univers créatif 🌟</p>
+  </header>
+
+  <nav>
+    <a href="index.html" onclick="showSection('accueil')">Accueil</a>
+    <a href="galerie.html" onclick="showSection('galerie')">Projets</a>
+    <a href="contact.html" onclick="showSection('contact')">Contact</a>
+  </nav>
+<body1>
+  <main>
+    <!-- ACCUEIL -->
+    <section id="" class="active">
+      <h2>À propos de moi</h2>
+
+  <div class="intro">
+    <div class="texte">
+      <p>Salut 👋 Je suis un créateur passionné par le design, la photo et la création de contenus modernes...</p>
+      <p>Artisan3DPrint Design associe savoir-faire artisanal et technologies modernes d’impression 3D...</p>
+    </div>
+
+    <img src="Image/Logo_Artisan3DPrintDesign.png"
+         alt="Logo Artisan 3D Print Design"
+         class="logo">
+  </div>
+
+ <!-- BLOC IMPRIMANTE -->
+<div class="imprimante-container">
+
+    <img src="Image/imprimante.png" 
+         alt="Imprimante 3D Ender 3 S1 Pro"
+         class="imprimante-photo">
+
+    <div class="imprimante-texte">
+        <h3>Mon imprimante 3D</h3>
+        <p>
+            J’utilise une <strong>Creality Ender 3 S1 Pro</strong>, une imprimante fiable et précise,
+            idéale pour créer des projets 3D de haute qualité.
+        </p>
+
+        <a href="imprimante.html" class="btn-info">En savoir plus</a>
+    </div>
+
+</div>
+         <div class="gallery">
+
+        <!-- PHOTO A CHANGER-->
+        <a href="projet1.html" class="bouton-image">
+          <img src="Image/symboleS.jpg" alt="Lampe design imprimée en 3D" class="logo">
+        </a>        
+
+        <a href="projet2.html" class="bouton-image">
+          <img src="Image/projetplaque.jpg" alt="Photo 2">
+        </a>
+
+        <a href="projet3.html" class="bouton-image">
+          <img src="Image/photo3.png" alt="Photo 3">
+        </a> 
+
+
+      </div>
+    </section>
+  </main>
+</body1>
+
+  <footer>
+     © 2025 Artisan3DPrint Design — Tous droits réservés
+  </footer>
+
+  <script>
+    // Script pour afficher les sections selon l’onglet cliqué
+    function showSection(id) {
+      document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+</body>
+</html>
+
+
