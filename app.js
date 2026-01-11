@@ -133,14 +133,30 @@ async function renderProjectPage() {
 
   const mainImage = (project.images && project.images[0]) ? project.images[0] : { src: project.coverImage, alt: project.title };
 
-  const videoHtml = project.video?.embedUrl ? `
-    <div class="project-card">
-      <h3>${escapeHtml(project.video.title || "Vidéo")}</h3>
-      <div class="video-container">
-        <iframe allow="fullscreen;autoplay" allowfullscreen src="${escapeHtml(project.video.embedUrl)}"></iframe>
-      </div>
+const v = project.video;
+
+const videoHtml = v?.embedUrl ? `
+  <div class="project-card">
+    <h3>${escapeHtml(v.title || "Vidéo")}</h3>
+
+    <div class="video-container ${
+      v.rotate===90 ? "video-rotate-90" :
+      v.rotate===270 ? "video-rotate-270" : ""
+    }" style="${(v.width ? `width:${v.width}px;` : "")}">
+
+      <iframe
+        allow="fullscreen;autoplay"
+        allowfullscreen
+        style="${
+          (v.rotate===90 || v.rotate===270 || v.rotate===0)
+            ? `transform: translate(-50%, -50%) rotate(${v.rotate||0}deg) scale(${v.scale||1});`
+            : ""
+        }"
+        src="${escapeHtml(v.embedUrl)}"></iframe>
+
     </div>
-  ` : "";
+  </div>
+` : "";
 
   const ctaHtml = project.cta?.email ? `
     <div class="contact-project">

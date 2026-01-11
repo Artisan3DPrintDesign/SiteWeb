@@ -131,6 +131,85 @@
         "text": "Plaque factice, décoration moto ou autre pièce sur mesure : je peux réaliser votre projet personnalisé.",
         "email": "artisan3dprintdesign@gmail.com"
       }
+    },
+
+    {
+  "id": "projet3",
+  "title": "Support de téléphone personnalisé imprimé en 3D",
+  "subtitle": "Bienvenue dans mon Projet Numéro 3 🌟",
+
+  "meta": {
+    "pageTitle": "Support de téléphone personnalisé imprimé en 3D | Artisan3DPrint Design",
+    "description": "Support de téléphone sur mesure conçu et imprimé en 3D en PLA. Modélisation personnalisée, impression précise et finition professionnelle.",
+    "keywords": [
+      "impression 3D",
+      "support téléphone",
+      "objet personnalisé",
+      "PLA",
+      "design 3D",
+      "création sur mesure"
+    ],
+    "image": "https://raw.githubusercontent.com/Artisan3DPrintDesign/SiteImage/main/Image1.jpg"
+  },
+
+  "coverImage": "https://raw.githubusercontent.com/Artisan3DPrintDesign/SiteImage/main/Image1.jpg",
+
+  "images": [
+    {
+      "src": "https://raw.githubusercontent.com/Artisan3DPrintDesign/SiteImage/main/Image1.jpg",
+      "alt": "Support de téléphone personnalisé imprimé en 3D"
+    }
+  ],
+
+"video": {
+  "title": "Impression 3D en timelaps",
+  "embedUrl": "https://streamable.com/e/ngbz6u?autoplay=1&muted=1",
+  "source": "timelaps1",
+  "rotate": 90,
+  "width": 200,
+  "scale": 1.50
+},
+
+"sections": [
+    {
+      "h3": "Présentation du projet",
+      "type": "text",
+      "content": [
+        "Ce support de téléphone a été entièrement conçu et fabriqué sur mesure grâce à l’impression 3D, en utilisant du PLA, un matériau à la fois résistant et respectueux de l’environnement.",
+        "De la première idée jusqu’au produit final, chaque étape a été réalisée avec soin afin de garantir un résultat parfaitement adapté aux besoins du client."
+      ]
+    },
+    {
+      "h3": "Conception et personnalisation",
+      "type": "text",
+      "content": [
+        "La modélisation 3D a été créée de A à Z à partir des besoins précis du client, assurant une ergonomie optimale et une parfaite compatibilité avec son téléphone.",
+        "Une fois le design validé, le choix de la couleur a été défini en collaboration avec le client afin d’obtenir un rendu esthétique et entièrement personnalisé."
+      ]
+    },
+    {
+      "h3": "Processus d’impression",
+      "type": "text",
+      "content": [
+        "L’impression a été réalisée à l’aide de mon imprimante 3D Creality Ender 3 S1 Pro, une machine offrant une excellente précision et une finition de qualité professionnelle.",
+        "La vidéo présentée ci-contre montre le processus d’impression en timelaps, illustrant chaque étape de fabrication."
+      ]
+    },
+    {
+      "h3": "Conclusion",
+      "type": "text",
+      "content": [
+        "Grâce à une approche entièrement personnalisée et à un matériel performant, je suis en mesure de transformer vos idées en objets concrets, sur mesure et de haute qualité.",
+        "Chaque projet est unique et conçu pour répondre précisément aux attentes du client."
+      ]
+    }
+  ],
+
+  "cta": {
+    "title": "Un projet similaire ? Une création sur mesure ?",
+    "text": "Support de téléphone, accessoire personnalisé ou tout autre objet imprimé en 3D : je peux concevoir et réaliser votre projet sur mesure.",
+    "email": "artisan3dprintdesign@gmail.com"
+  }
     }
   ]
 }
