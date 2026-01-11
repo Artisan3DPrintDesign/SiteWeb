@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": "projet1",
+      "title": "Porte-clés Suzuki imprimé en 3D",
+      "subtitle": "Bienvenue dans mon Projet Numéro 1 🌟",
+
+      "meta": {
+        "pageTitle": "Porte-clés Suzuki imprimé en 3D | Artisan3DPrint Design",
+        "description": "Création d’un porte-clés Suzuki personnalisé imprimé en 3D. Conception sur mesure et impression 3D professionnelle.",
+        "keywords": [
+          "impression 3D",
+          "porte-clés",
+          "Suzuki",
+          "objet personnalisé",
+          "design 3D"
+        ],
+        "image": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/symboleS.jpg"
+      },
+
+      "coverImage": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/symboleS.jpg",
+
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/symboleS.jpg",
+          "alt": "Porte-clés Suzuki imprimé en 3D"
+        }
+      ],
+
+      "video": {
+        "title": "Impression en cours",
+        "embedUrl": "https://streamable.com/e/nayh8u?autoplay=1&muted=1"
+      },
+
+      "sections": [
+        {
+          "h3": "Présentation du projet",
+          "type": "text",
+          "content": [
+            "Ce projet consiste en la création d’un porte-clés personnalisé pour un client, basé sur le logo Suzuki.",
+            "À partir de la demande du client, j’ai conçu la pièce en 3D, puis préparé le modèle pour l’impression."
+          ]
+        },
+        {
+          "h3": "Processus de création",
+          "type": "list",
+          "items": [
+            "💡 Idée de départ : porte-clés avec logo Suzuki.",
+            "🧩 Conception du modèle dans un logiciel 3D.",
+            "📐 Export vers un slicer pour générer le G-code.",
+            "⚙️ Réglages puis lancement de l’impression.",
+            "📸 Photos et suivi au client.",
+            "🤝 Remise en main propre."
+          ]
+        }
+      ],
+
+      "cta": {
+        "title": "Un projet similaire ? Une création sur mesure ?",
+        "text": "Si vous souhaitez un porte-clés, un logo ou tout autre objet imprimé en 3D, je peux réaliser votre projet sur demande.",
+        "email": "artisan3dprintdesign@gmail.com"
+      }
+    },
+
+    {
+      "id": "projet2",
+      "title": "Plaque moto personnalisée imprimée en 3D",
+      "subtitle": "Bienvenue dans mon Projet Numéro 2 🌟",
+
+      "meta": {
+        "pageTitle": "Plaque moto personnalisée imprimée en 3D | Artisan3DPrint Design",
+        "description": "Plaque moto factice personnalisée imprimée en 3D pour photos. Création sur mesure respectant le format réel.",
+        "keywords": [
+          "impression 3D",
+          "plaque moto",
+          "moto",
+          "objet personnalisé",
+          "création sur mesure"
+        ],
+        "image": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/projetplaque.jpg"
+      },
+
+      "coverImage": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/projetplaque.jpg",
+
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/artisan3dprintdesign/SiteImage/refs/heads/main/projetplaque.jpg",
+          "alt": "Plaque moto personnalisée imprimée en 3D"
+        }
+      ],
+
+      "video": {
+        "title": "Impression en cours",
+        "embedUrl": "https://streamable.com/e/hepf12?autoplay=1&muted=1"
+      },
+
+      "sections": [
+        {
+          "h3": "Présentation du projet",
+          "type": "text",
+          "content": [
+            "Ce projet est une plaque personnalisée pour moto, conçue pour un client souhaitant prendre des photos de sa moto sans afficher sa véritable plaque d’immatriculation.",
+            "À partir des dimensions exactes d’une plaque moto, j’ai conçu une pièce qui se fixe directement sur la plaque originale, avec un texte personnalisé."
+          ]
+        },
+        {
+          "h3": "Processus de création",
+          "type": "list",
+          "items": [
+            "💡 Idée du client : plaque factice au format moto.",
+            "📏 Réception des dimensions exactes de la plaque.",
+            "🧩 Conception du modèle dans un logiciel 3D.",
+            "📐 Import du modèle dans un slicer.",
+            "⚙ Réglage et lancement de l’impression.",
+            "📸 Envoi des photos finales au client.",
+            "🤝 Remise en main propre."
+          ]
+        },
+        {
+          "h3": "Conclusion",
+          "type": "text",
+          "content": [
+            "Ce projet montre comment l’impression 3D peut répondre à un besoin précis tout en préservant l’anonymat du propriétaire.",
+            "La plaque est conçue uniquement pour un usage visuel et photographique."
+          ]
+        }
+      ],
+
+      "cta": {
+        "title": "Un projet similaire ? Une création sur mesure ?",
+        "text": "Plaque factice, décoration moto ou autre pièce sur mesure : je peux réaliser votre projet personnalisé.",
+        "email": "artisan3dprintdesign@gmail.com"
+      }
+    }
+  ]
+}
